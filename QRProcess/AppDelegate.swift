@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AppCenter
+import AppCenterDistribute
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Set App center key
+        MSAppCenter.start("d5b9a646-9f6e-421b-935b-11dbf39728ea", withServices: [MSDistribute.self])
+        
         return true
     }
 

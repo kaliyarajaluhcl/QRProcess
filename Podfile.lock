@@ -1,0 +1,18 @@
+PODS:
+  - AppCenter/Core (2.5.0)
+  - AppCenter/Distribute (2.5.0):
+    - AppCenter/Core
+
+DEPENDENCIES:
+  - AppCenter/Distribute
+
+SPEC REPOS:
+  trunk:
+    - AppCenter
+
+SPEC CHECKSUMS:
+  AppCenter: 637f180deefc61e8ab3f94223869ee50f61dabea
+
+PODFILE CHECKSUM: cad7217bd28cbc887a6e460283515fda1af56206
+
+COCOAPODS: 1.8.4
