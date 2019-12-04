@@ -13,6 +13,16 @@
 		3515E79F2396453D0044C660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3515E79D2396453D0044C660 /* Main.storyboard */; };
 		3515E7A12396453F0044C660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3515E7A02396453F0044C660 /* Assets.xcassets */; };
 		3515E7A42396453F0044C660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3515E7A22396453F0044C660 /* LaunchScreen.storyboard */; };
+		3515E7AD239665AC0044C660 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3515E7AC239665AC0044C660 /* CoreImage.framework */; };
+		3515E7B723967F340044C660 /* CameraScanner+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515E7B023967F340044C660 /* CameraScanner+Types.swift */; };
+		3515E7B823967F350044C660 /* CameraScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515E7B123967F340044C660 /* CameraScanner.swift */; };
+		3515E7B923967F350044C660 /* CameraScanner+Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515E7B223967F340044C660 /* CameraScanner+Camera.swift */; };
+		3515E7BA23967F350044C660 /* CameraScannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515E7B323967F340044C660 /* CameraScannerDelegate.swift */; };
+		3515E7BB23967F350044C660 /* VideoPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515E7B423967F340044C660 /* VideoPermission.swift */; };
+		3515E7BC23967F350044C660 /* DeviceEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515E7B523967F340044C660 /* DeviceEnvironment.swift */; };
+		3515E7BD23967F350044C660 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515E7B623967F340044C660 /* Error.swift */; };
+		3515E7BF23967F5F0044C660 /* BarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515E7BE23967F5F0044C660 /* BarcodeViewController.swift */; };
+		3515E7C22396808F0044C660 /* ViewConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515E7C12396808F0044C660 /* ViewConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		3515E7A02396453F0044C660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3515E7A32396453F0044C660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3515E7A52396453F0044C660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3515E7AC239665AC0044C660 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		3515E7B023967F340044C660 /* CameraScanner+Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CameraScanner+Types.swift"; sourceTree = "<group>"; };
+		3515E7B123967F340044C660 /* CameraScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraScanner.swift; sourceTree = "<group>"; };
+		3515E7B223967F340044C660 /* CameraScanner+Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CameraScanner+Camera.swift"; sourceTree = "<group>"; };
+		3515E7B323967F340044C660 /* CameraScannerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraScannerDelegate.swift; sourceTree = "<group>"; };
+		3515E7B423967F340044C660 /* VideoPermission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPermission.swift; sourceTree = "<group>"; };
+		3515E7B523967F340044C660 /* DeviceEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceEnvironment.swift; sourceTree = "<group>"; };
+		3515E7B623967F340044C660 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		3515E7BE23967F5F0044C660 /* BarcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeViewController.swift; sourceTree = "<group>"; };
+		3515E7C12396808F0044C660 /* ViewConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3515E7AD239665AC0044C660 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,7 @@
 			children = (
 				3515E7962396453D0044C660 /* QRProcess */,
 				3515E7952396453D0044C660 /* Products */,
+				3515E7AB239665AC0044C660 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +78,9 @@
 		3515E7962396453D0044C660 /* QRProcess */ = {
 			isa = PBXGroup;
 			children = (
+				3515E7C0239680740044C660 /* Helper */,
+				3515E7AF23967F130044C660 /* Camera Scanner */,
+				3515E7AE23967EFD0044C660 /* Controller */,
 				3515E7972396453D0044C660 /* AppDelegate.swift */,
 				3515E7992396453D0044C660 /* SceneDelegate.swift */,
 				3515E79B2396453D0044C660 /* ViewController.swift */,
@@ -65,6 +90,44 @@
 				3515E7A52396453F0044C660 /* Info.plist */,
 			);
 			path = QRProcess;
+			sourceTree = "<group>";
+		};
+		3515E7AB239665AC0044C660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3515E7AC239665AC0044C660 /* CoreImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3515E7AE23967EFD0044C660 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3515E7BE23967F5F0044C660 /* BarcodeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3515E7AF23967F130044C660 /* Camera Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				3515E7B123967F340044C660 /* CameraScanner.swift */,
+				3515E7B223967F340044C660 /* CameraScanner+Camera.swift */,
+				3515E7B023967F340044C660 /* CameraScanner+Types.swift */,
+				3515E7B323967F340044C660 /* CameraScannerDelegate.swift */,
+				3515E7B523967F340044C660 /* DeviceEnvironment.swift */,
+				3515E7B623967F340044C660 /* Error.swift */,
+				3515E7B423967F340044C660 /* VideoPermission.swift */,
+			);
+			path = "Camera Scanner";
+			sourceTree = "<group>";
+		};
+		3515E7C0239680740044C660 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3515E7C12396808F0044C660 /* ViewConstant.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +201,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3515E7BB23967F350044C660 /* VideoPermission.swift in Sources */,
+				3515E7B923967F350044C660 /* CameraScanner+Camera.swift in Sources */,
 				3515E79C2396453D0044C660 /* ViewController.swift in Sources */,
 				3515E7982396453D0044C660 /* AppDelegate.swift in Sources */,
+				3515E7BC23967F350044C660 /* DeviceEnvironment.swift in Sources */,
 				3515E79A2396453D0044C660 /* SceneDelegate.swift in Sources */,
+				3515E7C22396808F0044C660 /* ViewConstant.swift in Sources */,
+				3515E7BA23967F350044C660 /* CameraScannerDelegate.swift in Sources */,
+				3515E7B823967F350044C660 /* CameraScanner.swift in Sources */,
+				3515E7BD23967F350044C660 /* Error.swift in Sources */,
+				3515E7BF23967F5F0044C660 /* BarcodeViewController.swift in Sources */,
+				3515E7B723967F340044C660 /* CameraScanner+Types.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,7 +357,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 439C3M95HK;
 				INFOPLIST_FILE = QRProcess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +376,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 439C3M95HK;
 				INFOPLIST_FILE = QRProcess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
