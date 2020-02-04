@@ -41,6 +41,8 @@ class ViewController: UIViewController {
             lblType.text = "QR Code Scanner"
             btnAction.setTitle("Scan Now", for: .normal)
         }
+        
+        print("Test to launch new build")
     }
     
     // MARK: - Actions
