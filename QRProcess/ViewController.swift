@@ -42,7 +42,7 @@ class ViewController: UIViewController {
             btnAction.setTitle("Scan Now", for: .normal)
         }
         
-        print("Test to launch new build")
+        print("Test realtime installation")
     }
     
     // MARK: - Actions
