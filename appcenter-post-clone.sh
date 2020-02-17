@@ -7,3 +7,15 @@
 #buildNumber=$(/usr/libexec/PlistBuddy -c "Print CFBundleVersion" "${INFOPLIST_FILE}")
 
 /usr/libexec/PlistBuddy -c 'print ":CFBundleVersion"' QRProcess/Info.plist
+
+# Auto increment script
+#set buildVersion=/usr/libexec/PlistBuddy -c 'print ":CFBundleVersion"' QRProcess/Info.plist
+#set buildV=buildVersion + 1
+#/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $buildV" QRProcess/Info.plist
+
+#echo "Hello World Shell $buildVersion"
+
+#numone=1.0
+#numtwo=1.2
+#total=`echo $numone + $numtwo | bc`
+#echo $total
