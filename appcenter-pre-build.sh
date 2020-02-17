@@ -8,7 +8,12 @@
 
 #/usr/libexec/PlistBuddy -c 'print ":CFBundleVersion"' QRProcess/Info.plist
 
-plutil -replace CFBundleVersion -string "\($APP_VERSION)" QRProcess/Info.plist
+plutil -replace CFBundleVersion -string $APP_BUILD_NUMBER QRProcess/Info.plist
+
+plutil -replace CFBundleShortVersionString -string $APP_VERSION QRProcess/Info.plist
+
+
+plutil -replace CFBundleName -string $APP_NAME QRProcess/Info.plist
 
 # Auto increment script
 #set buildVersion=/usr/libexec/PlistBuddy -c 'print ":CFBundleVersion"' QRProcess/Info.plist
